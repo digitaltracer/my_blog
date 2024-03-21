@@ -1,7 +1,7 @@
 ```blogcfg
 {
 	"title": "Initial Raspberry Pi Setup",
-	"hex_code": "0x00",
+	"page_name": "sample",
 	"publish": true,
 	"tags": [
 		"raspberry pi", "GNU/Linux" 
