@@ -90,7 +90,7 @@
 					<ul>
 					{% for a in articles %}
 						<li><!-- {{ a }} - -->
-							<a class="articleLink" href="/article/{{ a }}.html">{{ a.title }}</a>
+							<a class="articleLink" href="/article/{{ a.page_name }}.html">{{ a.title }}</a>
 							{% for t in a.tags %}
 								<span class='tag'>{{ t }}</span>
 							{% endfor %}
