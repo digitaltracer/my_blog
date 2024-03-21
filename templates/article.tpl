@@ -54,7 +54,7 @@
 	</head>
 	<body>
 		<header>
-			<h1 id="article-hexcode">{{ meta.hex_code }}</h1>
+			<h1 id="article-hexcode">{{ meta }}</h1>
 			<h3 id="aritcle-title">{{ meta.title }}</h3>
 		</header>
 		{{ content }}
