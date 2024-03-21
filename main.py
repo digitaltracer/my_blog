@@ -61,16 +61,14 @@ def render_articles():
         Renders the markdown content to raw html by mistune, then applied on a
         jinja template and exported to out/
     """
-    for md_filename in os.listdir('./content'):
+    for md_filename in os.listdir('./markdowns'):
 
         # skip draft files from processing
-        # draft files are named as <hexcode>_draft.md
         if "draft" in md_filename:
             continue
 
         with open("./markdowns/" + md_filename, 'r') as f:
 
-            # articles are named by their hex code GEEKY AF
             article_name = md_filename.rstrip('.md')
 
             print('[+] Rendering Article ', article_name)
@@ -99,7 +97,7 @@ def render_main_page():
 
 
 def copy_pages_to_nginx():
-    shutil.copytree("./out", "/var/www/adarshnb.com/html")
+    shutil.copytree("out/", "/var/www/adarshnb.com/html", dirs_exist_ok=True)
 
 
 def main():
