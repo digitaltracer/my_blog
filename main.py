@@ -5,7 +5,6 @@ import os
 import json
 import shutil
 
-from mistune.core import BaseRenderer
 from jinja2 import Template
 from pygments import highlight
 from pygments.lexers import get_lexer_by_name
@@ -36,23 +35,23 @@ def render_template(template, data):
 
 
 # list out contents and convert from markdown to html
-class BlogContentRenderer(BaseRenderer):
+class BlogContentRenderer(mistune.HTMLRenderer):
 
-    def block_code(self, code, lang):
+    def block_code(self, code, info=None):
 
         global ARTICLE_DATA
 
-        if not lang:
+        if not info:
             return '\n<pre><code id="block_code">%s</code></pre>' % mistune.escape(code)
 
-        if lang == "blogcfg":
+        if info == "blogcfg":
             article_info = json.loads(code)
             print(article_info)
             ARTICLE_DATA.append(article_info)
 
             return ""
 
-        lexer = get_lexer_by_name(lang, stripall=True)
+        lexer = get_lexer_by_name(info, stripall=True)
         formatter = HtmlFormatter(linenos=False, cssclass="source")
         return highlight(code, lexer, formatter)
 
