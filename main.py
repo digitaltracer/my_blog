@@ -95,6 +95,9 @@ def render_main_page():
         f.write(render_template('mainpage',
                                 {'articles': ARTICLE_DATA}))
 
+    with open("./out/index2.html", 'w') as f:
+        f.write(render_template("mainpage_2", {"articles": ARTICLE_DATA}))
+
 
 def copy_pages_to_nginx():
     shutil.copytree("out/", "/var/www/adarshnb.com/html", dirs_exist_ok=True)
@@ -104,7 +107,7 @@ def main():
     load_templates()
     render_articles()
     render_main_page()
-    copy_pages_to_nginx()
+    # copy_pages_to_nginx()
 
 
 if __name__ == "__main__":
