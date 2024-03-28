@@ -6,11 +6,7 @@
 	"tags": [
 		"raspberry pi", "GNU/Linux" 
 	],
-	"excerpt": "This write up allow you to to set up your Raspberry Pi for ssh
-We acheive this by manually activating sshd in Pi's root partition.
-Followed by writing a systemd service file which activates the WiFi.
-In this case, I will be connecting my Pi to my smartphone's mobile hotspot and my pc to the hotspot as well.
-And then ssh into the Pi"
+	"excerpt": "This write up allow you to to set up your Raspberry Pi for ssh\nWe acheive this by manually activating sshd in Pi's root partition.\nFollowed by writing a systemd service file which activates the WiFi.\nIn this case, I will be connecting my Pi to my smartphone's mobile hotspot and my pc to the hotspot as well.\nAnd then ssh into the Pi"
 }
 ```
 
