@@ -1,3 +1,9 @@
+html {
+    font-size: 62.5%;
+    text-size-adjust: 100%;
+    line-height: 1.15;
+}
+
 section > header {
   margin: 0 auto;
   max-width: 650px;
@@ -40,4 +46,14 @@ border-color: #3e465b;
     padding: 5px;
     border-radius: 50%;
   }
+}
+
+.page-links {
+    border: 1px solid rgb(191, 200, 210);
+    border-radius: 15px;
+    color: rgb(62, 70, 91);
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
 }

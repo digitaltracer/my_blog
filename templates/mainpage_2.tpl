@@ -11,7 +11,7 @@
 </section>
 <section>
     <header>
-    <a href="https://twitter.com/adarshnb">
+    <a class="page-links" href="https://twitter.com/adarshnb">
     <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -27,7 +27,7 @@
           </svg>
     Twitter
     </a>
-    <a href="https://github.com/digitaltracer">
+    <a class="page-links" href="https://github.com/digitaltracer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -43,7 +43,7 @@
           </svg>
         Github
      </a>
-     <a>
+     <a class="page-links" href="https://www.linkedin.com/in/adarsh-nb-93104729/">
      <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
