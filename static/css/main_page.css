@@ -27,7 +27,7 @@ height: 20px;
 margin-right: 5px;
 stroke: #6e849c;
 vertical-align: middle;
-width: 20px;
+width: 24px;
 }
 
 &:hover {
@@ -56,4 +56,64 @@ border-color: #3e465b;
     margin: 5px;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+section {
+    margin: 0px auto;
+    max-width: 890px;
+}
+
+.article-block {
+    text-align: center;
+    display: block;
+}
+
+.articles {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(224, 230, 237);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px;
+    margin-bottom: 30px;
+    padding: 75px 100px;
+}
+
+.article-heading {
+    color: rgb(62, 70, 91);
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 0px;
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.head-date {
+    color: rgb(102, 109, 113);
+    display: block;
+    font-size: 1.6em;
+    margin: 0px;
+    text-align: center;
+}
+
+.article-text {
+    color: rgb(102, 109, 113);
+    display: block;
+    font-size: 1.6em;
+    margin: 50px 0px 0px;
+    text-align: center;
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.continue-reading {
+    color: rgb(102, 109, 113);
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 50px;
+    text-decoration: none;
+}
 }
