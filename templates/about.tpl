@@ -30,13 +30,12 @@
     <div class="w-full lg:w-1/3 lg:border-r border-line lg:px-8 xl:px-12">
         <div class="flex flex-col h-full justify-between">
             <div>
-                <h2 class="font-header font-light text-front text-2xl leading-none mb-4> {{ profile['main_role'] }} </h2>
-          <h1 class=" font-header font-black text-front text-5xl leading-none break-words mb-6> {{ profile['full_name']
+                <h2 class="font-header font-light text-front text-2xl leading-none mb-4"> {{ profile['main_role'] }} </h2>
+          <h1 class="font-header font-black text-front text-5xl leading-none break-words mb-6"> {{ profile['full_name']
                     }}
                     </h1>
                     <div class="relative inline-block>
-                <img src=" static
-                    /imgs/profile.jpg" alt="Adarsh N B"
+                <img src="static/imgs/profile.jpg" alt="Adarsh N B"
                     class="block rounded-full relative z-10 w-56 h-56 lg:w-36 lg:h36" />
                     <div class="avatar-bg bg-lead"></div>
             </div>
@@ -90,8 +89,7 @@
         <div class="flex pb-8">
             <div class="w-1/2 pr-4 lg:pr-12 border-r border-line">
                 <h5 class="section-header pb-0">Company</h5>
-                <h3 class="font-header font-light text-2xl text-front leading-tight">{{ profile['current_company']
-                    }}</h3>
+                <h3 class="font-header font-light text-2xl text-front leading-tight">{{ profile['current_company'] }}</h3>
                 <div class="font-header font-semibold text-xs uppercase pt-2">
                     <span class="dot status-green"></span> Available for hire
                 </div>
