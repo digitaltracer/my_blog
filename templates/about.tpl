@@ -1248,7 +1248,7 @@
             <h5 class="section-header pb-3">About</h5>
             <div class="font-text text-sm pb-6">
                 <p class="pb-6">
-                    {{a.about}}
+                    {{profile['about']}}
                 </p>
             </div>
             <!-- About Section Ends -->
