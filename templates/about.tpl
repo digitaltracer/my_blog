@@ -50,7 +50,7 @@
               </svg>
             </span>
           </span>
-                <span class="text-back font-header font-bold py-1 px-3 text-lg">{{ a.location }}</span>
+                <span class="text-back font-header font-bold py-1 px-3 text-lg">{{ profile['location'] }}</span>
             </div>
             <div class="text-xs uppercase pt-2 font-semibold text-front font-header">
                 Available for Relocation
