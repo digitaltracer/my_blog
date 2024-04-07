@@ -23,7 +23,7 @@ def load_templates():
 
     for filename in os.listdir("./templates"):
         with open('./templates/' + filename, 'r') as f:
-            TEMPLATES.update({filename.rstrip(".tpl"): Template(f.read())})
+            TEMPLATES.update({filename[:-4]: Template(f.read())})
 
 
 def render_template(template, data):
