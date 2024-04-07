@@ -99,6 +99,15 @@ def render_main_page():
         f.write(render_template("mainpage_2", {"articles": ARTICLE_DATA}))
 
 
+def render_about_page():
+    profile_data = {}
+    with open("profile.json") as f:
+        profile_data = json.load(f)
+
+    with open("./out/about.html", 'w') as f:
+        f.write(render_template("about", {"profile": profile_data}))
+
+
 def copy_pages_to_nginx():
     shutil.copytree("out/", "/var/www/adarshnb.com/html", dirs_exist_ok=True)
 
@@ -107,7 +116,8 @@ def main():
     load_templates()
     render_articles()
     render_main_page()
-    # copy_pages_to_nginx()
+    render_about_page()
+    copy_pages_to_nginx()
 
 
 if __name__ == "__main__":
