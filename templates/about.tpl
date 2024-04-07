@@ -1254,7 +1254,7 @@
             <!-- About Section Ends -->
             <!-- Project Section Begins -->
             <h5 class="section-header pb-3">Projects</h5>
-            {% for project in profile['projects'] }
+            {% for project in profile['projects'] %}
             <div class="project">
                 <h4>{{ project.title }}</h4>
                 <a href="{{ project.url }}" target="_blank" class="text-front hover:opacity-75">Project Link </a>
