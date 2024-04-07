@@ -1,0 +1,84 @@
+{
+    "initials": "ANB",
+    "main_role": "Senior Software Engineer",
+    "current_company": "Inflection.io",
+    "location": "Bangalore, India",
+    "relocation": true,
+    "for_hire": true,
+    "focus": "Distributed systems",
+    "full_name": "Adarsh N B",
+    "about": " I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set.\n Passionate about designing, reviewing and revising projects as it evolves. Experienced in building end to end scalable products",
+    "linkedin_url": "https://www.linkedin.com/in/adarsh-nb-93104729/",
+    "twitter_url": "https://twitter.com/adarshnb",
+    "github_url": "https://github.com/digitaltracer",
+    "top_skills": [
+        "Python",
+        "Scala",
+        "Java"
+    ],
+    "tools": [
+        "Flask",
+        "Spark",
+        "Airflow"
+    ],
+    "work_history": [
+        {
+            "company": "Inflection.io",
+            "job_title": "Software Engineer 2",
+            "timespan": "January 2022 - September 2023"
+        },
+        {
+            "company": "FullContact Inc",
+            "job_title": "Principal Software Engineer",
+            "timespan": "January 2021 - "
+        },
+        {
+            "company": "FullContact Inc",
+            "job_title": "Team Lead, Data Pipeline",
+            "timespan": "July 2018 - Dec 2020"
+        },
+        {
+            "company": "FullContact Inc",
+            "job_title": "Senior Software Engineer",
+            "timespan": "September 2016 - June 2018"
+        },
+        {
+            "company": "Profoundis (Acquired by FullContact)",
+            "job_title": "Senior Product Engineer",
+            "timespan": "January 2016 - September 2016"
+        },
+        {
+            "company": "ZLemma Analytics Pvt. Ltd.",
+            "job_title": "Algorithms Engineer",
+            "timespan": "May 2014 - September 2015"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Identity Management",
+            "description": "Internal graph built from billions of observations of personal contact information used to deduce identity",
+            "status": "in progress",
+            "tags": [
+                "Scala",
+                "Spark",
+                "HBase",
+                "React"
+            ],
+            "icon": "github"
+        },
+        {
+            "name": "Data Pipeline",
+            "description": "FullContact's batch enrichment and resolve pipeline.",
+            "status": "live",
+            "tags": ["Scala", "Spark", "EMR", "Airflow"],
+            "icon": "website"
+        },
+        {
+            "name": "High scale web crawler system",
+            "description": "High scale web crawler to gather publicly available information",
+            "status": "live",
+            "tags": ["Python", "REST", "Redis", "MySQL"],
+            "icon": "website"
+        }
+    ]
+}
