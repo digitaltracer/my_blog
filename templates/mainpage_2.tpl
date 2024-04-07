@@ -63,6 +63,18 @@
      </a>
     </header>
 </section>
+<section>
+    {% for a in articles %}
+        <div class="articles">
+        <div class="article-block">
+        <h1 class="article-heading"> {{ a.title }} </h1>
+        <span class=""> {{ a.datetime }} </span>
+        <p class=""> {{ a.excerpt }} </p>
+        <a class=""> Continue Reading </a>
+        </div>
+        </div>
+    {% endfor %}
+</section>
 						{% for a in articles %}
 						<li><!-- {{ a }} - -->
 							<a class="articleLink" href="/article/{{ a.page_name }}.html">{{ a.title }}</a>
