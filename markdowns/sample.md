@@ -3,6 +3,7 @@
 	"title": "Initial Raspberry Pi Setup",
 	"page_name": "sample",
 	"publish": true,
+	"datetime": "June 30, 2023",
 	"tags": [
 		"raspberry pi", "GNU/Linux" 
 	],
