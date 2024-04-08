@@ -12,7 +12,7 @@
                 <a href="#"><img src="/static/imgs/codeblock.jpg"></a>
             </div>
             <h1 class="article-heading">Adarsh N. B</h1>
-            <p class="subtext article-text">Software Developer</p>
+            <p class="article-text subtext">Software Developer</p>
             <div>
                 <a class="page-links" href="https://twitter.com/adarshnb">
                     <svg
