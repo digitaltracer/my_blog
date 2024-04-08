@@ -36,7 +36,7 @@
         </h1>
         <div class="relative inline-block">
           <img src="static/imgs/profile.jpg" alt="Adarsh N B"
-               class="block rounded-full relative z-10 w-56 h-56 lg:w-36 lg:h36"/>
+               class="block rounded-full relative z-10 w-56 h-56 lg:w-36 lg:h-36"/>
           <div class="avatar-bg bg-lead"></div>
         </div>
         <br>
