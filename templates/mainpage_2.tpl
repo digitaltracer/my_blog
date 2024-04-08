@@ -68,13 +68,13 @@
         </header>
     </section>
     <section>
-        {% for a in articles %}
+        {% for article in articles %}
         <div class="articles">
             <div class="article-block">
-                <h1 class="article-heading"> {{ a.title }} </h1>
-                <span class=""> {{ a.datetime }} </span>
-                <p class=""> {{ a.excerpt }} </p>
-                <a class=""> Continue Reading </a>
+                <h1 class="article-heading"> {{ article.title }} </h1>
+                <span class="head-date"> {{ article.datetime }} </span>
+                <p class="article-text"> {{ article.excerpt }} </p>
+                <a class="continue-reading"> Continue Reading </a>
             </div>
         </div>
         {% endfor %}
