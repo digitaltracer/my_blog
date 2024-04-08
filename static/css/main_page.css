@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
     padding: 50px 0px;
-    font-smoothing: antialiased;
+    font-smooth: antialiased;
 }
 
 section > header {
@@ -59,7 +59,8 @@ border-color: #3e465b;
     border-radius: 50%;
     max-width: 100%;
     border-style: none;
-    overflow-cli
+    width: 140px;
+    height: 140px;
   }
 }
 
