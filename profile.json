@@ -8,7 +8,7 @@
     "focus": "Distributed systems",
     "full_name": "Adarsh N B",
     "about": " I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set.\n Passionate about designing, reviewing and revising projects as it evolves. Experienced in building end to end scalable products",
-    "linkedin_url": "https://www.linkedin.com/in/adarsh-nb-93104729/",
+    "linkedin_url": "https://www.linkedin.com/in/adarshnb/",
     "twitter_url": "https://twitter.com/adarshnb",
     "github_url": "https://github.com/digitaltracer",
     "top_skills": [
@@ -57,7 +57,7 @@
         {
             "name": "Identity Management",
             "description": "Internal graph built from billions of observations of personal contact information used to deduce identity",
-            "status": "in progress",
+            "status": "live",
             "tags": [
                 "Scala",
                 "Spark",
