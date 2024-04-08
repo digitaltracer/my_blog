@@ -1060,7 +1060,9 @@
     {% for project in profile['projects'] %}
     <div class="project">
       <h4>{{ project.name }}</h4>
-      <a href="{{ project.url }}" target="_blank" class="text-front hover:opacity-75">Project Link </a>
+      {% if project.get('url') %}
+      <a href="{{ project.url }}" target="_blank" class="text-front hover:opacity-75">{{ project.url }}</a>
+      {% endif %}
       <p class="w-full"> {{ project.description }}</p>
       <ul class="tags">
         <li class="tag">
