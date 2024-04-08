@@ -13,11 +13,6 @@
             </div>
             <h1 class="article-heading">Adarsh N. B</h1>
             <p class="subtext article-text">Software Developer</p>
-        </header>
-
-    </section>
-    <section>
-        <header>
             <div>
                 <a class="page-links" href="https://twitter.com/adarshnb">
                     <svg
