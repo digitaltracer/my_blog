@@ -74,7 +74,7 @@
                 <h1 class="article-heading"> {{ article.title }} </h1>
                 <span class="head-date"> {{ article.datetime }} </span>
                 <p class="article-text"> {{ article.excerpt }} </p>
-                <a class="continue-reading" href="/article/{{ a.page_name }}.html"> Continue Reading </a>
+                <a class="continue-reading" href="/article/{{ article.page_name }}.html"> Continue Reading </a>
             </div>
         </div>
         {% endfor %}
