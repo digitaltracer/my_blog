@@ -20,8 +20,8 @@ section > header {
 }
 
 .subtext {
-  margin: 0px;
-  padding-bottom: 5px;
+  margin: 0px !important;
+  padding-bottom: 1.2em;
 }
 
 .header a {
