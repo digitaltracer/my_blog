@@ -7,7 +7,7 @@
 
 </head>
 
-<body>
+<body class="antialiased bg-back leading-normal font-text text-front">
 <header>
   <div class="flex justify-between p-4 lg:px-8">
       <span
