@@ -4,6 +4,14 @@ html {
     line-height: 1.15;
 }
 
+body {
+    background: rgb(249, 250, 252);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    padding: 50px 0px;
+    font-smoothing: antialiased;
+}
+
 section > header {
   margin: 0 auto;
   max-width: 650px;
@@ -49,6 +57,9 @@ border-color: #3e465b;
   img {
     padding: 5px;
     border-radius: 50%;
+    max-width: 100%;
+    border-style: none;
+    overflow-cli
   }
 }
 
@@ -119,12 +130,4 @@ p {
     font-size: 14px;
     margin-top: 50px;
     text-decoration: none;
-}
-
-body {
-    background: rgb(249, 250, 252);
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.5;
-    padding: 50px 0px;
-    font-smoothing: antialiased;
 }
