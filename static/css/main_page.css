@@ -11,6 +11,10 @@ section > header {
   text-align: center;
 }
 
+.subtext {
+  margin: 0px;
+}
+
 .header a {
   border: 1px solid #bfc8d2;
   border-radius: 15px;
@@ -116,4 +120,11 @@ p {
     margin-top: 50px;
     text-decoration: none;
 }
+
+body {
+    background: rgb(249, 250, 252);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    padding: 50px 0px;
+    font-smoothing: antialiased;
 }
