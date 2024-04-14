@@ -67,17 +67,8 @@
           LinkedIn
         </a>
         <a class="page-links" href="/about.html">
-          <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              view_box="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke_width="2"
-              stroke_linecap="round"
-              stroke_linejoin="round"
-          >
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 720.000000 789.000000"
+               preserveAspectRatio="xMidYMid meet" stroke_linecap="round" stroke_linejoin="round">
             <g transform="translate(0.000000,789.000000) scale(0.100000,-0.100000)"
                fill="#000000" stroke="none">
               <path d="M3180 7280 c-174 -21 -358 -103 -478 -214 -49 -45 -132 -149 -132
