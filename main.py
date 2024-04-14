@@ -95,9 +95,6 @@ def render_main_page():
         f.write(render_template('mainpage',
                                 {'articles': ARTICLE_DATA}))
 
-    with open("./out/index2.html", 'w') as f:
-        f.write(render_template("mainpage_2", {"articles": ARTICLE_DATA}))
-
 
 def render_about_page():
     profile_data = {}
