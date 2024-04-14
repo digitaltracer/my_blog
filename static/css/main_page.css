@@ -133,3 +133,7 @@ p {
     margin-top: 50px;
     text-decoration: none;
 }
+
+.cls-1{
+    fill-rule:evenodd;
+}
